@@ -1,0 +1,11 @@
+*.DS*
+*.idea*
+*__pycache__*
+*ipynb_checkpoints*
+
+*.npy
+*.pt
+*.pkl
+*.out
+
+model/playground.ipynb
