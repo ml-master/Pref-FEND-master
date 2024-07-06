@@ -17,4 +17,4 @@ python get_post_tokens.py --dataset 'Twitter' --pretrained_model 'bert-base-unca
 python get_post_tokens.py --dataset 'gossip' --pretrained_model 'bert-base-cased'
 
 # Articles
-python get_post_tokens.py --dataset 'gossip' --pretrained_model 'bert-base-cased'
+python get_articles_tokens.py --dataset 'gossip' --pretrained_model 'bert-base-cased'
