@@ -121,7 +121,7 @@ cd model
 mkdir ckpts
 ```
 
-`run_gossip.sh`中列出了训练和推理步骤中的所有配置和运行脚本。例如，如果您想在GossipCop上运行“BiLSTM”(基于模式的) +“DeClarE”(基于事实的)，您可以运行:
+`run_gossip.sh`中列出了训练和推理步骤中的所有配置和运行脚本。例如，如果您想在GossipCop上运行“BiLSTM(基于模式的) +DeClarE(基于事实的)”，您可以运行:
 
 ```
 
