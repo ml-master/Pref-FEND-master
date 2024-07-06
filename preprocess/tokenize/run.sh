@@ -10,7 +10,7 @@ python get_articles_tokens.py --dataset 'Weibo' --pretrained_model 'bert-base-ch
 python get_post_tokens.py --dataset 'Twitter' --pretrained_model 'bert-base-uncased'
 
 # Articles
-python get_post_tokens.py --dataset 'Twitter' --pretrained_model 'bert-base-uncased'
+python get_articles_tokens.py --dataset 'Twitter' --pretrained_model 'bert-base-uncased'
 
 # ================== GossipCop ==================
 # Post
