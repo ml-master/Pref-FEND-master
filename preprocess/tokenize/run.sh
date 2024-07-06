@@ -11,3 +11,10 @@ python get_post_tokens.py --dataset 'Twitter' --pretrained_model 'bert-base-unca
 
 # Articles
 python get_post_tokens.py --dataset 'Twitter' --pretrained_model 'bert-base-uncased'
+
+# ================== GossipCop ==================
+# Post
+python get_post_tokens.py --dataset 'gossip' --pretrained_model 'bert-base-cased'
+
+# Articles
+python get_post_tokens.py --dataset 'gossip' --pretrained_model 'bert-base-cased'
