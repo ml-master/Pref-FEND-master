@@ -28,13 +28,13 @@
 
 ### 准备工作
 
-#### 步骤1: Stylistic Tokens & Entities Recognition
+#### 步骤1：Stylistic Tokens & Entities Recognition
 
 对于原始数据集而言，这一步不是必需的，因为申请得到的数据集已经在json文件中提供了已识别的结果。
 
 对于课程数据集而言，“dataset”文件夹中的“gossip”文件夹中存放了json文件，其中提供了课程数据集的识别结果。您也可以通过`process.py`来对新的数据集进行此准备工作。
 
-#### 步骤2: Tokenize
+#### 步骤2：Tokenize
 
 ```
 cd preprocess/tokenize
@@ -46,7 +46,7 @@ cd preprocess/tokenize
 python get_post_tokens.py --dataset [dataset] --pretrained_model [bert_pretrained_model]
 ```
 
-#### 步骤3: Heterogeneous Graph Initialization
+#### 步骤3：Heterogeneous Graph Initialization
 
 ```
 cd preprocess/graph_init
@@ -58,7 +58,7 @@ cd preprocess/graph_init
 python init_graph.py --dataset [dataset] --max_nodes [max_tokens_num]
 ```
 
-#### 步骤4: Preparation of the Fact-based Models
+#### 步骤4：Preparation of the Fact-based Models
 
 注意，如果您不使用基于事实的模型作为Pref-FEND的一个组件，那么这一步就不是必需的。
 
@@ -86,7 +86,7 @@ cd preprocess/bm25
 python retrieve.py --dataset [dataset]
 ```
 
-#### 步骤5: Preparation for some special fake news detectors
+#### 步骤5：Preparation for some special fake news detectors
 
 注意，如果您不使用“EANN-Text”或“BERT-Emo”作为Pref-FEND的一个组件，那么这一步就不是必需的。
 
