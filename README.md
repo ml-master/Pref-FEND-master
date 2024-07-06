@@ -17,7 +17,7 @@
 
 论文原始实验数据集可以在“数据集”文件夹中看到，包括[Weibo Dataset](https://github.com/ICTMCG/Pref-FEND/tree/main/dataset/Weibo)和[Twitter Dataset](https://github.com/ICTMCG/Pref-FEND/tree/main/dataset/Twitter)。不过请注意，只有在提交了[“Application to Use the Datasets for Pattern- and Fact-based Joint Fake News Detection”](https://forms.office.com/r/HF00qdb3Zk)之后，您才能下载获取该数据集。
 
-课程数据集（包括原始的和处理后的）存放在“Pref-FEND-main/dataset”中。不过，由于该数据集太大，故而没有上传到GitHub，您可以通过这个链接获取：[机器学习课程数据集获取](https://www.alipan.com/s/PqyZphvLVeq)。
+课程数据集（包括原始的和处理后的）存放在“Pref-FEND-master/dataset”中。不过，由于该数据集太大，故而没有上传到GitHub，您可以通过这个链接获取：[机器学习课程数据集获取](https://www.alipan.com/s/PqyZphvLVeq)。
 
 
 ## 代码相关
