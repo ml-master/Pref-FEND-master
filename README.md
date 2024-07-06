@@ -1,7 +1,7 @@
 # Pref-FEND论文复现-机器学习大作业
 
-1. 学生姓名：郭惠洪。
-2. 说明：这个仓库为“Integrating Pattern- and Fact-based Fake News Detection via Model Preference Learning”这篇论文的复现工作。
+1. 姓名：郭惠洪。
+2. 基本说明：这个仓库为“Integrating Pattern- and Fact-based Fake News Detection via Model Preference Learning”这篇论文的复现工作。
 3. 这篇论文的相关官方信息:
 > **Integrating Pattern- and Fact-based Fake News Detection via Model Preference Learning.**
 >
@@ -10,13 +10,14 @@
 > *Proceedings of the 30th ACM International Conference on Information and Knowledge Management (CIKM 2021)*
 >
 > [PDF](https://dl.acm.org/doi/10.1145/3459637.3482440) / [Poster](https://www.zhangxueyao.com/data/cikm2021-PrefFEND-poster.pdf) / [Code](https://github.com/ICTMCG/Pref-FEND)
+4. bert-base-cased获取：[bert-base-cased获取](https://github.com/rohithjoginapally/bert-base-cased)。
 
 
 ## 数据集
 
 论文原始实验数据集可以在“数据集”文件夹中看到，包括[Weibo Dataset](https://github.com/ICTMCG/Pref-FEND/tree/main/dataset/Weibo)和[Twitter Dataset](https://github.com/ICTMCG/Pref-FEND/tree/main/dataset/Twitter)。请注意，只有在提交了[“Application to Use the Datasets for Pattern- and Fact-based Joint Fake News Detection”](https://forms.office.com/r/HF00qdb3Zk)之后，您才能下载数据集。
 
-课程数据集（包括原始的和处理后的）存放在“Pref-FEND-main/dataset”中。
+课程数据集（包括原始的和处理后的）存放在“Pref-FEND-main/dataset”中。不过，由于该数据集太大，故而没有上传到GitHub，您可以通过这个链接获取：[机器学习课程数据集获取](https://www.alipan.com/s/PqyZphvLVeq)。
 
 
 ## 代码相关
@@ -31,7 +32,7 @@
 
 对于原始数据集而言，这一步不是必需的，因为申请得到的数据集已经在json文件中提供了已识别的结果。
 
-对于课程数据集而言，“dataset”文件夹中的“gossip”文件夹中存放了json文件，其中提供了课程数据集的识别结果。您也可以通过“process.py”来对新的数据集进行此准备工作。
+对于课程数据集而言，“dataset”文件夹中的“gossip”文件夹中存放了json文件，其中提供了课程数据集的识别结果。您也可以通过`process.py`来对新的数据集进行此准备工作。
 
 #### 步骤2: Tokenize
 
